@@ -1,0 +1,69 @@
+#container-main{
+  background-color: blueviolet;
+  color: whitesmoke;
+}
+#header-nav{
+background-color: aqua;
+}
+
+#main-section{
+  margin-top: 40px;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: grey;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+@media(max-width:767px){
+  #navbar-title h1{
+  margin-top: -15px;
+ }
+ #collapsable-nav{
+  background-color: #557c3e;
+
+}
+
+#nav-list a {
+  color: white;
+
+
+  }
+
+  #container-main{
+margin-left: 15px;
+margin-right: 15px;
+  }
+
+ 
+}
